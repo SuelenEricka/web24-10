@@ -1,0 +1,48 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+:root {
+  --primary-color: #ffc500;
+  --secondary-color: #eaae00;
+  --third-color: #00c0cc;
+  --third-color-hover: #02acb8;
+  --dark-color: #302f2f;
+}
+
+.container-header{
+background-color: var(--secondary-color);
+display: flex;
+}
+.main{
+  background-color: var(--secondary-color);
+}
+.header-menu ul{
+display: flex;
+list-style: none;
+gap: 25px;
+}
+.header-menu ul li a{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+  - Fonte Roboto. 
+  - Header e main ocupam juntos 100vh
+  - Dois arquivos. (Um com a página inicial, o segundo com o formulário (+ header e footer))
+  - Criar vários arquivs css (um para cada componente - header (1 arquivo), main e seções (1 arquivo) e footer (1 arquivo))
+  - 
+*/
